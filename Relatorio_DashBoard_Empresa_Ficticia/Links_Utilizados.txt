@@ -1,0 +1,4 @@
+Precisei formartar a planilha pois tinham colunas com valores divergentes. 
+Link Google Sheets: https://docs.google.com/spreadsheets/d/1_jj6-_Lc1H1bV0a-yz4eHoPhjsEdDePTegDHZvhmc28/edit#gid=0
+
+Link Relatario Google Data Studio: https://lookerstudio.google.com/s/ir30LoYLwM4
