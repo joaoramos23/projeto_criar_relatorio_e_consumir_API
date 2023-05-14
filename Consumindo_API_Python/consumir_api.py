@@ -17,7 +17,7 @@ import re # problema com aspas, impossibilitando de inserir no banco de dados
 
 
 DRIVER = "{ODBC Driver 17 for SQL Server}"
-SERVER = "NOME_SERVIDOR"
+SERVER = "NOME SERVIDOR"
 USER = "USUARIO"
 PASSWORD = "SENHA"
 
@@ -80,13 +80,12 @@ def insert_items(cursor):
         cod_item, titulo, preco, descricao, categoria, imagem_url, avaliacao, importancia)
             
 def main_function():
-    connection_data()
     conexao = connect()
     cursor = create_cursor(conexao)
     create_table(cursor)
     insert_items(cursor)
 
-main_function()
+#main_function()
 
 # Função para visualizar os itens consumidos da API no console:
 
@@ -102,4 +101,4 @@ def order_items():
         print("AVALIAÇÃO: ",itens['rating']['rate'])
         print("IMPORTANCIA: ",itens['rating']['count'],end="\n\n\n")
 
-#order_items()
+order_items()
